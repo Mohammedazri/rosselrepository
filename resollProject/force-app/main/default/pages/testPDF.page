@@ -1,0 +1,7 @@
+<apex:page Controller="testPDFController">
+    <apex:iframe rendered="{!(renderIframe == true)}" src="data:application/pdf;base64,{!versionData}" width="95%" height="1000px"/>
+    <br/>
+    <apex:outputText rendered="{!(renderIframe == false)}" value="{0}">
+        <apex:param value="Aucune pièce jointe n'a été trouvée."/>
+    </apex:outputText>
+</apex:page>
