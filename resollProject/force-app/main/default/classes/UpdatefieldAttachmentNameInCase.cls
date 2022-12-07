@@ -8,6 +8,10 @@ for(case csL:cs)
 {
 }
 */
+
+
+
+
 cs[0].attachment_name__c=cs[0].attachment_name__c+' ; '+attachementName;
 System.debug('attachmant name'+cs[0].attachment_name__c);
 update cs[0];
