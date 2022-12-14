@@ -1,19 +1,60 @@
 Task 1612 : Bouton duplique une offre.
-Description
+
+
+
+
+------------Description-----------------
 
 En tant que vendeur, j'aimerai pouvoir dupliquer une ancienne offre via un bouton afin de simplifier ma vie.
 Au moment de la dédublication, il faut modifier les valeurs suivantes :
 
-•	Name
-•	Date du jour
+Name
+Date du jour
 Une nouvelle date de clôture today+30jours
 Un statut en cours
 Copier les produits
 Recopier la Quote principale
 
+Au moment de la duplication d'enregistrement :
+Les champs à modifier:
+*Quote Name
+*Opportunity Name
+*Estimated Close Date
+
+Les valeurs dupliquées sont :
+*Stage = en cours
+Products
+Quote principal
+*Enterprise Name
+*Enterprise contact
 
 
-Solution
+
+--------------------Solution--------------------------
+        
+                To Do
+
+- get id value of parent to use in the flow.
+
+
+
+
+- update the value of the child id.
+
+
+
+
+
+
+------------------------ idea--------------------------
+-Create a new record based quote and product
+-clone record with child
+
+
+
+
+
+====================================================
 Question:  
 -le choix de l’ancienne offer.
 -position of value.
@@ -29,16 +70,13 @@ Question :
 Mots clés
 - button screen Flow
 
-To learn =>
--screan flow 
+To learn => creat flow 
 
-Idée 
+Idée
+
 -	Header new record form the […] opportunity.
 -	Contact has been created
 -	Update the value of Quotes and Products after the creation of the records
--	
--	 
-
 -	Problem how can I update the chiled field in the screen flow
 
 
