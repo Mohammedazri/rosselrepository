@@ -1,3 +1,20 @@
+Task : 1601 Synchro des tâches
+-------------------Description----------
+En tant que vendeur, j’aimerai que les tâches SalesForce (Appel, email… ) se synchronisent avec les todo d’Outlook 
+afin d’être notifié sur mon GSM durant la journée quand je suis en prospection.
+
+
+
+------------------- Resource ------------
+-https://www.youtube.com/watch?v=wcm4Wv0jTfQ&ab_channel=AdamFoyston
+-
+-
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+006AU000001sq13YAA
 Task 1612 : Bouton duplique une offre.
 
 
@@ -25,8 +42,9 @@ Les valeurs dupliquées sont :
 *Stage = en cours
 Products
 Quote principal
-*Enterprise Name
 *Enterprise contact
+*Enterprise Name
+
 
 
 
@@ -70,7 +88,7 @@ Question :
 Mots clés
 - button screen Flow
 
-To learn => creat flow 
+ => creat flow 
 
 Idée
 
@@ -78,5 +96,26 @@ Idée
 -	Contact has been created
 -	Update the value of Quotes and Products after the creation of the records
 -	Problem how can I update the chiled field in the screen flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question :=> 
+pr quoi quand j'ajoute un 
+
+
+
+contact =< opp =< Quote
 
 
