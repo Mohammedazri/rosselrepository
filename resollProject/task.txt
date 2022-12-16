@@ -1,3 +1,29 @@
+Task 1649 Bouton crée Devis :
+-----------------Demande de création d’un bouton “DEVIS”
+
+
+Je voudrais un bouton au niveau contact qui crée donc un devis à l’intérieur d’une opportunité créée de la meme manière que le bouton qui crée l’opportunité:
+Et qui se trouverait directement au niveau contact. Et qui permet d’ouvrir le devis:
+
+Donc pour résumer:
+1.On sélectionne l’entreprise
+2.On sélectionne le contact => on est déja sur le contact.
+3.On clique créer devis => on est obliger d'avoir un opportunitiesId
+
+Et cela crée:
+
+1.Une opportunité reliée au contact/entreprise
+2.Un devis relié à l’opportunité
+3.Ouvre ce devis pour pouvoir commencer à rajouter des produits
+
+
+
+
+
+
+
+
+
 Task : 1601 Synchro des tâches
 -------------------Description----------
 En tant que vendeur, j’aimerai que les tâches SalesForce (Appel, email… ) se synchronisent avec les todo d’Outlook 
